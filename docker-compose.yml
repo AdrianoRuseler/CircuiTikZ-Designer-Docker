@@ -1,0 +1,9 @@
+services:
+  circuitikz-designer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: circuitikz-designer
+    ports:
+      - "8080:80"
+    restart: unless-stopped
