@@ -21,6 +21,9 @@ docker run --rm -p 8080:80 circuitikz-designer:latest
 docker-compose up -d
 ```
 
+- http://localhost:8080/
+
+
 ```bash
 # Stop
 docker-compose down
