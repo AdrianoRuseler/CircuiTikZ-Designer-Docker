@@ -14,6 +14,13 @@ docker build -t circuitikz-designer:latest .
 docker run --rm -p 8080:80 circuitikz-designer:latest
 ```
 
+## Docker HUB
+- https://hub.docker.com/r/ruseler/circuitikz-designer
+
+```bash
+docker build -t ruseler/circuitikz-designer:latest .
+```
+
 ## Run docker compose
 
 ```bash
